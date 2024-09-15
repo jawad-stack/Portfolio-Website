@@ -15,39 +15,33 @@ const Feature = () => {
         <Title title="Features" des="What I Do" />
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
           <Card
-            title="Business Stratagy"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
+            title="Portfolio Websites"
+            des="Developing beautiful and appealing cross-browser and mobile-friendly designs that adapt to various screen sizes."
             icon={null}
           />
           <Card
-            title="App Development"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
+            title="Full-Stack Web Development"
+            des="Building responsive, dynamic web applications using MongoDB, Express.js, React.js, and Node.js."
             icon={<AiFillAppstore />}
           />
           <Card
-            title="SEO Optimisation"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
+            title="Frontend Development"
+            des="Crafting interactive, user-friendly, and scalable interfaces with React.js."
             icon={<SiProgress />}
           />
           <Card
-            title="Mobile Development"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
+            title="Backend Development"
+            des="Developing scalable server-side applications and APIs with Node.js and Express.js."
             icon={<FaMobile />}
           />
           <Card
-            title="UX Design"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
+            title="Responsive Web Design"
+            des="Ensuring cross-browser and mobile-friendly designs that adapt to various screen sizes."
             icon={<SiAntdesign />}
           />
           <Card
-            title="Hosting Websites"
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-      hic consequuntur eum repellendus ad."
+            title="API Development and Integration"
+            des="Designing and integrating RESTful APIs to enable seamless data communication between client and server."
             icon={<FaGlobe />}
           />
         </div>
