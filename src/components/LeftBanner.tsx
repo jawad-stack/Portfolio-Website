@@ -1,11 +1,11 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaYoutube, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { FaFacebookF, FaGithub, FaLinkedinIn, FaReact } from "react-icons/fa";
+import { SiTailwindcss, SiFigma, SiNextdotjs, SiNodedotjs, SiExpress, SiMongodb } from "react-icons/si";
 import { FadeIn } from "./FadeIn";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+    words: ["MERN Stack (Frontend Heavy) Developer.", "Software Engineer.", "React.js Developer."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -16,7 +16,7 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">John doe</span>
+          Hi, I'm <span className="text-designColor capitalize">Jawad Iqbal</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -34,22 +34,22 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className="flex gap-4">
-            <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+            {/* <a href="https://www.youtube.com/@reactjsBD" target="_blank">
               <span className="bannerIcon">
                 <FaYoutube />
               </span>
-            </a>
+            </a> */}
             <a
-              href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
+              href="https://www.linkedin.com/in/jawadiqbal962/"
               target="_blank"
             >
               <span className="bannerIcon">
                 <FaLinkedinIn />
               </span>
             </a>
-            <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
+            <a href="https://github.com/jawad-stack" target="_blank">
               <span className="bannerIcon">
-                <FaFacebookF />
+                <FaGithub />
               </span>
             </a>
           </div>
@@ -63,13 +63,13 @@ const LeftBanner = () => {
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
+              <SiNodedotjs />
             </span>
             <span className="bannerIcon">
-              <SiTailwindcss />
+              <SiExpress />
             </span>
             <span className="bannerIcon">
-              <SiFigma />
+              <SiMongodb />
             </span>
           </div>
         </div>
