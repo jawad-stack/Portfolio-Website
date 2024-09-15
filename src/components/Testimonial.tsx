@@ -94,7 +94,7 @@ const Testimonial = () => {
     >
       <FadeIn>
         <div className="flex justify-center items-center text-center">
-          <Title title="WHAT CLIENTS SAY" des="Testimonial" />
+          <Title title="WHAT CLIENTS SAY" des="Testimonials/Recommendations" />
         </div>
         <div className="max-w-6xl mx-auto">
           {/* ================ Slider One ================== */}

@@ -7,7 +7,7 @@ import { FadeIn } from "./FadeIn";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["MERN Stack (Frontend Heavy) Developer.", "Software Engineer.", "React.js Developer."],
+    words: ["MERN Stack (Frontend Heavy).", "Software Engineer.", "React.js Developer."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
