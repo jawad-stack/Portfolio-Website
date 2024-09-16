@@ -139,7 +139,7 @@ const Testimonial = () => {
                       </div>
                     </div>
                     <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Having worked with Jawad for a year, I must say he is an excellent Individual as His ability to overcome challenges with a smile made him stand out as a cut above the rest!. He pays attention to user requirements and use his excellent communication skills to encounters every scenario with flexible code. I am impressed by his work ethic and communication skills. He is always eager to learn new technologies and clicks every little detail.
+                    Having worked with Jawad for a year, I must say he is an excellent Individual as His ability to overcome challenges with a smile made him stand out as a cut above the rest!. I am impressed by his work ethic and communication skills. He is always eager to learn new technologies and clicks every little detail.
                     We worked on several projects, and he was the best team mate one can ask for.
                     </p>
                   </div>

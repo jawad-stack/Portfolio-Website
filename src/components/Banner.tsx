@@ -1,7 +1,7 @@
-// import { HiArrowCircleDown } from "react-icons/hi";
+import { HiArrowCircleDown } from "react-icons/hi";
 import LeftBanner from "./LeftBanner";
 import RightBanner from "./RightBanner";
-// import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 
 const Banner = () => {
   return (
@@ -13,6 +13,18 @@ const Banner = () => {
       <LeftBanner />
       <RightBanner />
     </section>
+    <Link
+                activeClass="active"
+                to={"feature"}
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="h-screen absolute top-0 z-10 pointer-events-auto cursor-pointer flex justify-center"
+              >
+    <HiArrowCircleDown size={60} />
+              </Link>
+
       </>
   );
 };
