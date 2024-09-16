@@ -1,9 +1,10 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState } from "react";
 import Slider from "react-slick";
 import { RiStarFill } from "react-icons/ri";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
 import Title from "./Title";
-import { quote, testimonialOne, testimonialTwo } from "../assets";
+import { quote } from "../assets";
 import { FadeIn } from "./FadeIn";
 
 function SampleNextArrow(props: any) {

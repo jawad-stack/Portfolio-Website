@@ -1,6 +1,5 @@
-import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe } from "react-icons/fa";
-import { SiProgress, SiAntdesign, SiReact, SiTailwindcss, SiVite, SiBootstrap, SiNextdotjs, SiNodedotjs, SiExpress, SiMongodb, SiCss3 } from "react-icons/si";
+
+import {  SiAntdesign, SiReact, SiTailwindcss, SiBootstrap, SiNextdotjs, SiNodedotjs, SiExpress, SiMongodb, SiCss3 } from "react-icons/si";
 import Card from "./Card";
 import Title from "./Title";
 import { FadeIn } from "./FadeIn";

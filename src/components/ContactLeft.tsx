@@ -22,7 +22,7 @@ const ContactLeft = () => {
           Phone: <span className="text-lightText">+92 340 1501493</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">jawadiqbal962@gmail.com</span>
+          Email: <a className="text-lightText" href="mailto:jawadiqbal962@gmail.com" target="_blank">jawadiqbal962@gmail.com</a>
         </p>
       </div>
       <div className="flex flex-col gap-4">

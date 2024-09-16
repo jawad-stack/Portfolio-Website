@@ -14,7 +14,7 @@ const LeftBanner = () => {
     delaySpeed: 2000,
   });
   return (
-    <FadeIn className="w-full lgl:w-1/2 flex flex-col gap-20">
+    <FadeIn className="w-full lgl:w-1/2 flex flex-col gap-20 z-10">
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
@@ -33,7 +33,7 @@ const LeftBanner = () => {
           <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
           </h2>
-          <div className="flex gap-4">
+          <div className="flex gap-4 pointer-events-auto">
             {/* <a href="https://www.youtube.com/@reactjsBD" target="_blank">
               <span className="bannerIcon">
                 <FaYoutube />
