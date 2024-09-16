@@ -19,19 +19,19 @@ const Education = () => {
             title="BS in Software Engineering"
             subTitle="International Islamic University (2017 - 2021)"
             // result="3.90/4"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            des="Provided a strong foundation in software development, design, and testing methodologies. It covered core subjects such as algorithms, databases, object-oriented programming, and software project management, preparing graduates for diverse roles in the software industry."
           />
           <ResumeCard
             title="Intermediate - Pre-Engineering"
             subTitle="FBISE (2015 - 2017)"
             // result="4.75/5"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            des="Foundational subjects like mathematics, physics, and chemistry, equipping students with analytical and problem-solving skills. This program is designed to prepare students for engineering and technical disciplines at the university level."
           />
           <ResumeCard
             title="Secondary School Education"
             subTitle="FBISE (2013 - 2015)"
             // result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            des="Focused on core subjects such as mathematics, science, and English, providing a well-rounded academic foundation. It aimed to prepare students for higher secondary education in specialized fields like engineering, medicine, or commerce."
           />
         </div>
       </div>
