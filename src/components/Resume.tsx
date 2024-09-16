@@ -10,7 +10,7 @@ const Resume = () => {
   const [educationData, setEducationData] = useState<Boolean>(true);
   const [skillData, setSkillData] = useState<Boolean>(false);
   const [experienceData, setExperienceData] = useState<Boolean>(false);
-  const [cousesData, setCoursesData] = useState<Boolean>(false);
+  const [coursesData, setCoursesData] = useState<Boolean>(false);
   return (
     <section
       id="resume"
@@ -75,7 +75,7 @@ const Resume = () => {
                 setCoursesData(true);
               }}
               className={`${
-                cousesData
+                coursesData
                   ? "border-designColor rounded-lg"
                   : "border-transparent"
               } resumeLi`}
@@ -86,7 +86,7 @@ const Resume = () => {
         </div>
         {educationData && <Education />}
         {skillData && <Skills />}
-        {cousesData && <Achievement />}
+        {coursesData && <Achievement />}
         {experienceData && <Experience />}
       </FadeIn>
     </section>

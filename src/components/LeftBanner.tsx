@@ -25,9 +25,7 @@ const LeftBanner = () => {
           <Cursor cursorStyle="|" cursorColor="#ff014f" />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wider">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+        Specialized in JavaScript and ReactJS, with additional experience in ExpressJS and Node.js. My expertise includes developing dynamic web applications, creating scalable backend systems, and implementing user-friendly interfaces. I excel at leveraging advanced technologies to build robust and efficient solutions, ensuring high-quality outcomes.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
