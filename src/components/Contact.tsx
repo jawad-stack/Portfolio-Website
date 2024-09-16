@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState } from "react";
 
 import ContactLeft from "./ContactLeft";
@@ -36,6 +37,8 @@ const Contact = () => {
     } else if (message === "") {
       setErrMsg("Message is required!");
     } else {
+
+    window.location.href = `mailto:jawadiqbal962@gmail.com?subject=${subject}&body=${message}`;
       setSuccessMsg(
         `Thank you dear ${username}, Your Messages has been sent Successfully!`
       );

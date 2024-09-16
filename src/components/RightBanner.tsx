@@ -1,3 +1,4 @@
+// import { HiArrowCircleDown } from "react-icons/hi";
 import { bannerImg } from "../assets";
 import { FadeIn } from "./FadeIn";
 

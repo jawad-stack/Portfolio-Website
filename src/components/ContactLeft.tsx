@@ -1,4 +1,4 @@
-import { FaFacebookF, FaYoutube, FaLinkedinIn } from "react-icons/fa";
+import {  FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { contactImg } from "../assets";
 
 const ContactLeft = () => {
@@ -12,41 +12,41 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Jawad Iqbal</h3>
         <p className="text-lg font-normal text-gray-400">
-          MERN Stack (Frontend Heavy) Developer
+          MERN Stack (Frontend Heavy)
         </p>
         <p className="text-base text-gray-400 tracking-wide">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
           ipsam autem cumque, accusantium dicta odio.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+968 97859628</span>
+          Phone: <span className="text-lightText">+92 340 1501493</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">noor.jsdivs@gmail.com</span>
+          Email: <a className="text-lightText" href="mailto:jawadiqbal962@gmail.com" target="_blank">jawadiqbal962@gmail.com</a>
         </p>
       </div>
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <a href="https://www.youtube.com/@reactjsBD" target="_blank">
-            <span className="bannerIcon">
-              <FaYoutube />
-            </span>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
-            target="_blank"
-          >
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span>
-          </a>
-          <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
-          </a>
-        </div>
+            {/* <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+              <span className="bannerIcon">
+                <FaYoutube />
+              </span>
+            </a> */}
+            <a
+              href="https://www.linkedin.com/in/jawadiqbal962/"
+              target="_blank"
+            >
+              <span className="bannerIcon">
+                <FaLinkedinIn />
+              </span>
+            </a>
+            <a href="https://github.com/jawad-stack" target="_blank">
+              <span className="bannerIcon">
+                <FaGithub />
+              </span>
+            </a>
+          </div>
       </div>
     </div>
   );

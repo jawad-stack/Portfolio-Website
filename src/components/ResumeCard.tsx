@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 const ResumeCard = ({ title, subTitle, result, des }: any) => {
   return (
     <div className="w-full h-1/3 group flex">

@@ -10,8 +10,10 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
     <div className="w-full h-24 sticky top-0 z-50 backdrop-blur-2xl transition-colors bg-bodyColor/70 mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 px-4">
-      <div>
-        <img src={logo} alt="logo" />
+      <div className="flex gap-2 items-center">
+        <img src={logo} alt="logo" width={65} height={65} className="rounded-full"/>
+        <h1 className="text-4xl font-bold text-white capitalize">Jawad Iqbal</h1>
+
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -43,7 +45,11 @@ const Navbar = () => {
           <div className="w-[80%] h-screen mdl:hidden overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
-                <img className="w-32" src={logo} alt="logo" />
+              <div className="flex gap-2 items-center">
+        <img src={logo} alt="logo" width={65} height={65} className="rounded-full"/>
+        <h1 className="text-4xl font-bold text-white capitalize">Jawad Iqbal</h1>
+
+      </div>
                 <p className="text-sm text-gray-400 mt-2">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Earum soluta perspiciatis molestias enim cum repellat, magnam

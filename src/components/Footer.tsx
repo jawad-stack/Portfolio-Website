@@ -1,4 +1,4 @@
-import { FaFacebookF, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import {  FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { logo } from "../assets";
 import { FadeIn } from "./FadeIn";
 
@@ -6,24 +6,28 @@ const Footer = () => {
   return (
     <FadeIn className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-8">
-        <img className="w-32" src={logo} alt="logo" />
+      <div className="flex gap-2 items-center">
+        <img src={logo} alt="logo" width={65} height={65} className="rounded-full"/>
+        <h1 className="text-2xl font-bold text-white capitalize">Jawad Iqbal</h1>
+
+      </div>
         <div className="flex gap-4">
-          <a href="https://www.youtube.com/@reactjsBD" target="_blank">
+          {/* <a href="https://www.youtube.com/@reactjsBD" target="_blank">
             <span className="bannerIcon">
               <FaYoutube />
             </span>
-          </a>
+          </a> */}
           <a
-            href="https://www.linkedin.com/in/noor-mohammad-ab2245193/"
+            href="https://www.linkedin.com/in/jawadiqbal962/"
             target="_blank"
           >
             <span className="bannerIcon">
               <FaLinkedinIn />
             </span>
           </a>
-          <a href="https://www.facebook.com/Noorlalu143/" target="_blank">
+          <a href="https://github.com/jawad-stack" target="_blank">
             <span className="bannerIcon">
-              <FaFacebookF />
+              <FaGithub />
             </span>
           </a>
         </div>

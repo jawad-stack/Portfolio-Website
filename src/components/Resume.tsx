@@ -7,10 +7,10 @@ import Achievement from "./Achievement";
 import { FadeIn } from "./FadeIn";
 
 const Resume = () => {
-  const [educationData, setEducationData] = useState<Boolean>(true);
-  const [skillData, setSkillData] = useState<Boolean>(false);
-  const [experienceData, setExperienceData] = useState<Boolean>(false);
-  const [achievementData, setAchievementData] = useState<Boolean>(false);
+  const [educationData, setEducationData] = useState<boolean>(true);
+  const [skillData, setSkillData] = useState<boolean>(false);
+  const [experienceData, setExperienceData] = useState<boolean>(false);
+  const [coursesData, setCoursesData] = useState<boolean>(false);
   return (
     <section
       id="resume"
@@ -18,7 +18,7 @@ const Resume = () => {
     >
       <FadeIn>
         <div className="flex justify-center items-center text-center">
-          <Title title="7+ YEARS OF EXPERIENCE" des="My Resume" />
+          <Title title="4+ YEARS OF EXPERIENCE" des="My Resume" />
         </div>
         <div>
           <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
@@ -27,7 +27,7 @@ const Resume = () => {
                 setEducationData(true);
                 setSkillData(false);
                 setExperienceData(false);
-                setAchievementData(false);
+                setCoursesData(false);
               }}
               className={`${
                 educationData
@@ -42,7 +42,7 @@ const Resume = () => {
                 setEducationData(false);
                 setSkillData(true);
                 setExperienceData(false);
-                setAchievementData(false);
+                setCoursesData(false);
               }}
               className={`${
                 skillData
@@ -57,7 +57,7 @@ const Resume = () => {
                 setEducationData(false);
                 setSkillData(false);
                 setExperienceData(true);
-                setAchievementData(false);
+                setCoursesData(false);
               }}
               className={`${
                 experienceData
@@ -72,21 +72,21 @@ const Resume = () => {
                 setEducationData(false);
                 setSkillData(false);
                 setExperienceData(false);
-                setAchievementData(true);
+                setCoursesData(true);
               }}
               className={`${
-                achievementData
+                coursesData
                   ? "border-designColor rounded-lg"
                   : "border-transparent"
               } resumeLi`}
             >
-              Achievements
+              Courses
             </li>
           </ul>
         </div>
         {educationData && <Education />}
         {skillData && <Skills />}
-        {achievementData && <Achievement />}
+        {coursesData && <Achievement />}
         {experienceData && <Experience />}
       </FadeIn>
     </section>

@@ -1,6 +1,5 @@
-import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe } from "react-icons/fa";
-import { SiProgress, SiAntdesign } from "react-icons/si";
+
+import {  SiAntdesign, SiReact, SiTailwindcss, SiBootstrap, SiNextdotjs, SiNodedotjs, SiExpress, SiMongodb, SiCss3 } from "react-icons/si";
 import Card from "./Card";
 import Title from "./Title";
 import { FadeIn } from "./FadeIn";
@@ -17,32 +16,32 @@ const Feature = () => {
           <Card
             title="Portfolio Websites"
             des="Developing beautiful and appealing cross-browser and mobile-friendly designs that adapt to various screen sizes."
-            icon={null}
+            icons={[<SiReact />,<SiNextdotjs/>, <SiTailwindcss/>, <SiBootstrap/>]}
           />
           <Card
             title="Full-Stack Web Development"
             des="Building responsive, dynamic web applications using MongoDB, Express.js, React.js, and Node.js."
-            icon={<AiFillAppstore />}
+            icons={[<SiNodedotjs/>, <SiReact/>, <SiExpress/>, <SiMongodb/>]}
           />
           <Card
             title="Frontend Development"
             des="Crafting interactive, user-friendly, and scalable interfaces with React.js."
-            icon={<SiProgress />}
+            icons={[<SiReact />,<SiNextdotjs/>, <SiTailwindcss/>, <SiBootstrap/>]}
           />
           <Card
             title="Backend Development"
             des="Developing scalable server-side applications and APIs with Node.js and Express.js."
-            icon={<FaMobile />}
+            icons={[<SiNodedotjs/>, <SiExpress/>, <SiMongodb/>]}
           />
           <Card
             title="Responsive Web Design"
             des="Ensuring cross-browser and mobile-friendly designs that adapt to various screen sizes."
-            icon={<SiAntdesign />}
+            icons={[<SiAntdesign />,<SiTailwindcss/>, <SiBootstrap/>, <SiCss3/>]}
           />
           <Card
             title="API Development and Integration"
             des="Designing and integrating RESTful APIs to enable seamless data communication between client and server."
-            icon={<FaGlobe />}
+            icons={[<SiNodedotjs/>, <SiReact/>, <SiExpress/>, <SiMongodb/>]}
           />
         </div>
       </FadeIn>
