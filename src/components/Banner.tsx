@@ -8,7 +8,7 @@ const Banner = () => {
     <>
     <section
       id="home"
-      className="pointer-events-none w-full pt-10 pb-20 flex flex-col gap-10 xl:gap-0 lgl:flex-row items-center border-b-[1px] font-titleFont border-b-gray-700"
+      className="pointer-events-none w-full pt-6 pb-20 flex flex-col gap-10 xl:gap-0 lgl:flex-row items-center border-b-[1px] font-titleFont border-b-gray-700"
     >
       <LeftBanner />
       <RightBanner />
